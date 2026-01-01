@@ -1,6 +1,6 @@
 import 'package:fluro/fluro.dart';
-import 'package:thingsboard_app/config/routes/tb_routes.dart';
-import 'package:thingsboard_app/modules/notification/notification_page.dart';
+import 'package:hoptech_iot_app/config/routes/tb_routes.dart';
+import 'package:hoptech_iot_app/modules/notification/notification_page.dart';
 
 class NotificationRoutes extends TbRoutes {
   NotificationRoutes(super.tbContext);

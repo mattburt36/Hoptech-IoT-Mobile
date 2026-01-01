@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:infinite_scroll_pagination/infinite_scroll_pagination.dart';
-import 'package:thingsboard_app/core/entity/entities_base.dart';
+import 'package:hoptech_iot_app/core/entity/entities_base.dart';
 
-import 'package:thingsboard_app/core/entity/entity_list_card.dart';
+import 'package:hoptech_iot_app/core/entity/entity_list_card.dart';
 
 mixin EntitiesListStateBase on StatefulWidget {
   @override

@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:logger/logger.dart';
-import 'package:thingsboard_app/constants/enviroment_variables.dart';
+import 'package:hoptech_iot_app/constants/enviroment_variables.dart';
 
 class TbLogsFilter extends LogFilter {
   @override

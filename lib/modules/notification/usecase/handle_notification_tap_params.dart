@@ -1,5 +1,5 @@
-import 'package:thingsboard_app/core/context/tb_context.dart';
-import 'package:thingsboard_app/thingsboard_client.dart';
+import 'package:hoptech_iot_app/core/context/tb_context.dart';
+import 'package:hoptech_iot_app/thingsboard_client.dart';
 
 class HandleNotificationTapParams {
   HandleNotificationTapParams(

@@ -35,13 +35,21 @@ def flutterVersionName = localProperties.getProperty('flutter.versionName')
 if (flutterVersionName == null) {
     flutterVersionName = '1.0'
 }
-def customScheme = getDartDefineValue('thingsboardOAuth2CallbackUrlScheme') ?: 'org.thingsboard.app.auth'
-def customLabel = getDartDefineValue('androidApplicationName') ?: 'Thingsboard app'
+def customScheme = getDartDefineValue('thingsboardOAuth2CallbackUrlScheme') ?: 'io.hoptech.iot.auth'
+def customLabel = getDartDefineValue('androidApplicationName') ?: 'Hoptech IoT'
 def appLinksUrlHost = getDartDefineValue('appLinksUrlHost') ?: 'demo.thingsboard.io'
 def webPathPrefix = getDartDefineValue('webPathPrefix') ?: '/api/noauth/qr'
 def appLinksUrlScheme = getDartDefineValue('appLinksUrlScheme') ?: 'https'
+
+// Keystore configuration for release signing
+def keystoreProperties = new Properties()
+def keystorePropertiesFile = rootProject.file('key.properties')
+if (keystorePropertiesFile.exists()) {
+    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+}
+
 android {
-namespace "org.thingsboard.app"
+namespace "io.hoptech.iot"
     compileSdkVersion 35
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
@@ -49,7 +57,7 @@ namespace "org.thingsboard.app"
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId getDartDefineValue('androidApplicationId')?: "org.thingsboard.app"
+        applicationId getDartDefineValue('androidApplicationId')?: "io.hoptech.iot"
         minSdkVersion 24
         targetSdkVersion 36
         versionCode flutterVersionCode.toInteger()
@@ -70,11 +78,19 @@ compileOptions {
     kotlinOptions {
         jvmTarget = "17"
     }
+
+    signingConfigs {
+        release {
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+            storeFile keystoreProperties['storeFile'] ? file(keystoreProperties['storeFile']) : null
+            storePassword keystoreProperties['storePassword']
+        }
+    }
+
     buildTypes {
         release {
-            // TODO: Add your own signing config for the release build.
-            // Signing with the debug keys for now, so `flutter run --release` works.
-            signingConfig signingConfigs.debug
+            signingConfig signingConfigs.release
             // Custom proguard rules
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
 

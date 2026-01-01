@@ -1,6 +1,6 @@
-import 'package:thingsboard_app/modules/alarm/domain/pagination/alarm_types/alarm_types_query_ctrl.dart';
-import 'package:thingsboard_app/thingsboard_client.dart';
-import 'package:thingsboard_app/utils/services/pagination_repository.dart';
+import 'package:hoptech_iot_app/modules/alarm/domain/pagination/alarm_types/alarm_types_query_ctrl.dart';
+import 'package:hoptech_iot_app/thingsboard_client.dart';
+import 'package:hoptech_iot_app/utils/services/pagination_repository.dart';
 
 final class AlarmTypesPaginationRepository
     extends PaginationRepository<PageLink, AlarmType> {

@@ -1,9 +1,9 @@
-name: thingsboard_app
-description: Flutter ThingsBoard Mobile Application
+name: hoptech_iot_app
+description: Hoptech IoT Mobile Application
 
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
-version: 1.7.0+8
+version: 1.0.0+1
 
 environment:
   sdk: ^3.7.0

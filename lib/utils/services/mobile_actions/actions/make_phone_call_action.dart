@@ -1,5 +1,5 @@
-import 'package:thingsboard_app/utils/services/mobile_actions/actions/url_action.dart';
-import 'package:thingsboard_app/utils/services/mobile_actions/widget_mobile_action_type.dart';
+import 'package:hoptech_iot_app/utils/services/mobile_actions/actions/url_action.dart';
+import 'package:hoptech_iot_app/utils/services/mobile_actions/widget_mobile_action_type.dart';
 
 class MakePhoneCallAction extends UrlAction {
 

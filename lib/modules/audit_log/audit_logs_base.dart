@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:thingsboard_app/core/context/tb_context_widget.dart';
-import 'package:thingsboard_app/core/entity/entities_base.dart';
-import 'package:thingsboard_app/modules/audit_log/audit_log_details_page.dart';
-import 'package:thingsboard_app/thingsboard_client.dart';
-import 'package:thingsboard_app/utils/translation_utils.dart';
+import 'package:hoptech_iot_app/core/context/tb_context_widget.dart';
+import 'package:hoptech_iot_app/core/entity/entities_base.dart';
+import 'package:hoptech_iot_app/modules/audit_log/audit_log_details_page.dart';
+import 'package:hoptech_iot_app/thingsboard_client.dart';
+import 'package:hoptech_iot_app/utils/translation_utils.dart';
 
 mixin AuditLogsBase on EntitiesBase<AuditLog, TimePageLink> {
   @override

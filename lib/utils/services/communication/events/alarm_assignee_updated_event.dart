@@ -1,4 +1,4 @@
-import 'package:thingsboard_app/utils/services/communication/communication_event.dart';
+import 'package:hoptech_iot_app/utils/services/communication/communication_event.dart';
 
 final class AlarmAssigneeUpdatedEvent extends CommunicationEvent {
   const AlarmAssigneeUpdatedEvent(this.id);

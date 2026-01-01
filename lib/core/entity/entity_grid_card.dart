@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:thingsboard_app/core/entity/entities_base.dart';
+import 'package:hoptech_iot_app/core/entity/entities_base.dart';
 
 class EntityGridCard<T> extends StatelessWidget {
 

@@ -1,8 +1,8 @@
-import 'package:thingsboard_app/utils/services/mobile_actions/results/device_provisioning_result.dart';
-import 'package:thingsboard_app/utils/services/mobile_actions/results/image_result.dart';
-import 'package:thingsboard_app/utils/services/mobile_actions/results/launch_result.dart';
-import 'package:thingsboard_app/utils/services/mobile_actions/results/location_result.dart';
-import 'package:thingsboard_app/utils/services/mobile_actions/results/qr_code_result.dart';
+import 'package:hoptech_iot_app/utils/services/mobile_actions/results/device_provisioning_result.dart';
+import 'package:hoptech_iot_app/utils/services/mobile_actions/results/image_result.dart';
+import 'package:hoptech_iot_app/utils/services/mobile_actions/results/launch_result.dart';
+import 'package:hoptech_iot_app/utils/services/mobile_actions/results/location_result.dart';
+import 'package:hoptech_iot_app/utils/services/mobile_actions/results/qr_code_result.dart';
 abstract  class MobileActionResult {
   MobileActionResult();
 

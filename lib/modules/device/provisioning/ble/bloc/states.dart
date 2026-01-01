@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:thingsboard_app/modules/device/provisioning/models/provisioning_permission_type.dart';
+import 'package:hoptech_iot_app/modules/device/provisioning/models/provisioning_permission_type.dart';
 
 sealed class EspBleProvisioningState extends Equatable {
   const EspBleProvisioningState();

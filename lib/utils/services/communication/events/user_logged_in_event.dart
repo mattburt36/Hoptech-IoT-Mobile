@@ -1,5 +1,5 @@
-import 'package:thingsboard_app/thingsboard_client.dart' show User;
-import 'package:thingsboard_app/utils/services/communication/communication_event.dart';
+import 'package:hoptech_iot_app/thingsboard_client.dart' show User;
+import 'package:hoptech_iot_app/utils/services/communication/communication_event.dart';
 
 final class UserLoggedInEvent extends CommunicationEvent {
   const UserLoggedInEvent(this.user);

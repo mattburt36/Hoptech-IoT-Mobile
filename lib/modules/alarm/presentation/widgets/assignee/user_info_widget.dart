@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:thingsboard_app/utils/ui/tb_text_styles.dart';
-import 'package:thingsboard_app/utils/ui/text_extension.dart';
+import 'package:hoptech_iot_app/utils/ui/tb_text_styles.dart';
+import 'package:hoptech_iot_app/utils/ui/text_extension.dart';
 
 class UserInfoWidget extends StatelessWidget {
   const UserInfoWidget({

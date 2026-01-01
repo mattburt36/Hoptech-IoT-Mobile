@@ -9,23 +9,23 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:form_builder_validators/form_builder_validators.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 import 'package:mobile_scanner/mobile_scanner.dart';
-import 'package:thingsboard_app/config/routes/router.dart';
-import 'package:thingsboard_app/constants/assets_path.dart';
-import 'package:thingsboard_app/core/auth/login/bloc/bloc.dart';
-import 'package:thingsboard_app/core/auth/login/di/login_di.dart';
-import 'package:thingsboard_app/core/auth/login/login_page_background.dart';
-import 'package:thingsboard_app/core/auth/login/select_region/choose_region_screen.dart';
-import 'package:thingsboard_app/core/auth/login/select_region/model/region.dart';
-import 'package:thingsboard_app/core/auth/oauth2/i_oauth2_client.dart';
-import 'package:thingsboard_app/core/context/tb_context_widget.dart';
-import 'package:thingsboard_app/generated/l10n.dart';
-import 'package:thingsboard_app/locator.dart';
-import 'package:thingsboard_app/thingsboard_client.dart';
-import 'package:thingsboard_app/utils/services/device_info/i_device_info_service.dart';
-import 'package:thingsboard_app/utils/services/endpoint/i_endpoint_service.dart';
-import 'package:thingsboard_app/utils/services/overlay_service/i_overlay_service.dart';
-import 'package:thingsboard_app/utils/ui/tb_text_styles.dart';
-import 'package:thingsboard_app/widgets/tb_progress_indicator.dart';
+import 'package:hoptech_iot_app/config/routes/router.dart';
+import 'package:hoptech_iot_app/constants/assets_path.dart';
+import 'package:hoptech_iot_app/core/auth/login/bloc/bloc.dart';
+import 'package:hoptech_iot_app/core/auth/login/di/login_di.dart';
+import 'package:hoptech_iot_app/core/auth/login/login_page_background.dart';
+import 'package:hoptech_iot_app/core/auth/login/select_region/choose_region_screen.dart';
+import 'package:hoptech_iot_app/core/auth/login/select_region/model/region.dart';
+import 'package:hoptech_iot_app/core/auth/oauth2/i_oauth2_client.dart';
+import 'package:hoptech_iot_app/core/context/tb_context_widget.dart';
+import 'package:hoptech_iot_app/generated/l10n.dart';
+import 'package:hoptech_iot_app/locator.dart';
+import 'package:hoptech_iot_app/thingsboard_client.dart';
+import 'package:hoptech_iot_app/utils/services/device_info/i_device_info_service.dart';
+import 'package:hoptech_iot_app/utils/services/endpoint/i_endpoint_service.dart';
+import 'package:hoptech_iot_app/utils/services/overlay_service/i_overlay_service.dart';
+import 'package:hoptech_iot_app/utils/ui/tb_text_styles.dart';
+import 'package:hoptech_iot_app/widgets/tb_progress_indicator.dart';
 
 class LoginPage extends TbPageWidget {
   LoginPage(super.tbContext, {super.key});
@@ -121,15 +121,19 @@ class _LoginPageState extends TbPageState<LoginPage>
                                       mainAxisAlignment:
                                           MainAxisAlignment.spaceBetween,
                                       children: [
-                                        SvgPicture.asset(
-                                          ThingsboardImage.thingsBoardWithTitle,
-                                          height: 25,
-                                          colorFilter: ColorFilter.mode(
-                                            Theme.of(context).primaryColor,
-                                            BlendMode.srcIn,
+                                        Padding(
+                                          padding: const EdgeInsets.all(8.0),
+                                          child: SvgPicture.asset(
+                                            ThingsboardImage.thingsBoardWithTitle,
+                                            height: 40,
+                                            fit: BoxFit.contain,
+                                            colorFilter: ColorFilter.mode(
+                                              Theme.of(context).primaryColor,
+                                              BlendMode.srcIn,
+                                            ),
+                                            semanticsLabel:
+                                                S.of(context).logoDefaultValue,
                                           ),
-                                          semanticsLabel:
-                                              S.of(context).logoDefaultValue,
                                         ),
                                         const SizedBox(height: 25),
                                         Visibility(

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:thingsboard_app/core/context/tb_context_widget.dart';
-import 'package:thingsboard_app/modules/dashboard/presentation/view/dashboards_page.dart';
-import 'package:thingsboard_app/modules/dashboard/presentation/view/home_dashboard_page.dart';
-import 'package:thingsboard_app/modules/tenant/tenants_widget.dart';
-import 'package:thingsboard_app/thingsboard_client.dart';
+import 'package:hoptech_iot_app/core/context/tb_context_widget.dart';
+import 'package:hoptech_iot_app/modules/dashboard/presentation/view/dashboards_page.dart';
+import 'package:hoptech_iot_app/modules/dashboard/presentation/view/home_dashboard_page.dart';
+import 'package:hoptech_iot_app/modules/tenant/tenants_widget.dart';
+import 'package:hoptech_iot_app/thingsboard_client.dart';
 
 class HomePage extends TbContextWidget {
   HomePage(super.tbContext, {super.key});

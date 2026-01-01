@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:thingsboard_app/modules/version/route/version_route_arguments.dart';
+import 'package:hoptech_iot_app/modules/version/route/version_route_arguments.dart';
 
 sealed class VersionInfoEvent extends Equatable {
   const VersionInfoEvent();

@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:thingsboard_app/config/routes/router.dart';
-import 'package:thingsboard_app/core/auth/login/select_region/model/region.dart';
-import 'package:thingsboard_app/core/auth/login/select_region/region_widget.dart';
-import 'package:thingsboard_app/core/context/tb_context_widget.dart';
-import 'package:thingsboard_app/generated/l10n.dart';
-import 'package:thingsboard_app/locator.dart';
-import 'package:thingsboard_app/utils/services/endpoint/i_endpoint_service.dart';
-import 'package:thingsboard_app/utils/ui/tb_text_styles.dart';
-import 'package:thingsboard_app/widgets/tb_app_bar.dart';
+import 'package:hoptech_iot_app/config/routes/router.dart';
+import 'package:hoptech_iot_app/core/auth/login/select_region/model/region.dart';
+import 'package:hoptech_iot_app/core/auth/login/select_region/region_widget.dart';
+import 'package:hoptech_iot_app/core/context/tb_context_widget.dart';
+import 'package:hoptech_iot_app/generated/l10n.dart';
+import 'package:hoptech_iot_app/locator.dart';
+import 'package:hoptech_iot_app/utils/services/endpoint/i_endpoint_service.dart';
+import 'package:hoptech_iot_app/utils/ui/tb_text_styles.dart';
+import 'package:hoptech_iot_app/widgets/tb_app_bar.dart';
 
 class ChooseRegionScreen extends TbContextStatelessWidget {
   ChooseRegionScreen(

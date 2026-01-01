@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_html/flutter_html.dart';
-import 'package:thingsboard_app/core/context/tb_context.dart';
-import 'package:thingsboard_app/locator.dart';
-import 'package:thingsboard_app/modules/alarm/alarms_base.dart';
-import 'package:thingsboard_app/modules/notification/usecase/handle_notification_tap_params.dart';
-import 'package:thingsboard_app/modules/notification/usecase/handle_notification_tap_usecase.dart';
-import 'package:thingsboard_app/modules/notification/widgets/notification_icon.dart';
-import 'package:thingsboard_app/thingsboard_client.dart';
-import 'package:thingsboard_app/utils/translation_utils.dart';
+import 'package:hoptech_iot_app/core/context/tb_context.dart';
+import 'package:hoptech_iot_app/locator.dart';
+import 'package:hoptech_iot_app/modules/alarm/alarms_base.dart';
+import 'package:hoptech_iot_app/modules/notification/usecase/handle_notification_tap_params.dart';
+import 'package:hoptech_iot_app/modules/notification/usecase/handle_notification_tap_usecase.dart';
+import 'package:hoptech_iot_app/modules/notification/widgets/notification_icon.dart';
+import 'package:hoptech_iot_app/thingsboard_client.dart';
+import 'package:hoptech_iot_app/utils/translation_utils.dart';
 import 'package:timeago/timeago.dart' as timeago;
 
 class NotificationWidget extends StatelessWidget {

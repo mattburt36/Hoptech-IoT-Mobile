@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:preload_page_view/preload_page_view.dart';
-import 'package:thingsboard_app/config/routes/router.dart';
-import 'package:thingsboard_app/core/context/tb_context_widget.dart';
-import 'package:thingsboard_app/generated/l10n.dart';
-import 'package:thingsboard_app/locator.dart';
-import 'package:thingsboard_app/modules/alarm/alarms_list.dart';
-import 'package:thingsboard_app/modules/alarm/di/alarms_di.dart';
-import 'package:thingsboard_app/modules/alarm/presentation/bloc/alarms_bloc.dart';
-import 'package:thingsboard_app/modules/alarm/presentation/bloc/alarms_states.dart';
-import 'package:thingsboard_app/modules/alarm/presentation/view/alarms_filter_page.dart';
-import 'package:thingsboard_app/utils/ui/tb_text_styles.dart';
-import 'package:thingsboard_app/widgets/tb_app_bar.dart';
+import 'package:hoptech_iot_app/config/routes/router.dart';
+import 'package:hoptech_iot_app/core/context/tb_context_widget.dart';
+import 'package:hoptech_iot_app/generated/l10n.dart';
+import 'package:hoptech_iot_app/locator.dart';
+import 'package:hoptech_iot_app/modules/alarm/alarms_list.dart';
+import 'package:hoptech_iot_app/modules/alarm/di/alarms_di.dart';
+import 'package:hoptech_iot_app/modules/alarm/presentation/bloc/alarms_bloc.dart';
+import 'package:hoptech_iot_app/modules/alarm/presentation/bloc/alarms_states.dart';
+import 'package:hoptech_iot_app/modules/alarm/presentation/view/alarms_filter_page.dart';
+import 'package:hoptech_iot_app/utils/ui/tb_text_styles.dart';
+import 'package:hoptech_iot_app/widgets/tb_app_bar.dart';
 
 class AlarmsPage extends TbContextWidget {
   AlarmsPage(

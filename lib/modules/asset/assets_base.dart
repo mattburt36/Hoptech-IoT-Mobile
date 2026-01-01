@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:thingsboard_app/config/routes/router.dart';
-import 'package:thingsboard_app/core/entity/entities_base.dart';
-import 'package:thingsboard_app/locator.dart';
-import 'package:thingsboard_app/thingsboard_client.dart';
+import 'package:hoptech_iot_app/config/routes/router.dart';
+import 'package:hoptech_iot_app/core/entity/entities_base.dart';
+import 'package:hoptech_iot_app/locator.dart';
+import 'package:hoptech_iot_app/thingsboard_client.dart';
 
 mixin AssetsBase on EntitiesBase<AssetInfo, PageLink> {
   @override

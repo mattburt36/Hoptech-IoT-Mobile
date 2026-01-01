@@ -1,4 +1,4 @@
-import 'package:thingsboard_app/thingsboard_client.dart';
+import 'package:hoptech_iot_app/thingsboard_client.dart';
 
 abstract interface class IAlarmDetailsRepository {
   Future<PageData<AlarmCommentInfo>> fetchAlarmComments(

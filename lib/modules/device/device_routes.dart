@@ -1,10 +1,10 @@
 import 'package:fluro/fluro.dart';
 import 'package:flutter/widgets.dart';
-import 'package:thingsboard_app/config/routes/tb_routes.dart';
-import 'package:thingsboard_app/modules/device/device_details_page.dart';
-import 'package:thingsboard_app/modules/device/devices_list_page.dart';
-import 'package:thingsboard_app/modules/device/devices_main_page.dart';
-import 'package:thingsboard_app/modules/device/devices_page.dart';
+import 'package:hoptech_iot_app/config/routes/tb_routes.dart';
+import 'package:hoptech_iot_app/modules/device/device_details_page.dart';
+import 'package:hoptech_iot_app/modules/device/devices_list_page.dart';
+import 'package:hoptech_iot_app/modules/device/devices_main_page.dart';
+import 'package:hoptech_iot_app/modules/device/devices_page.dart';
 
 class DeviceRoutes extends TbRoutes {
   DeviceRoutes(super.tbContext);

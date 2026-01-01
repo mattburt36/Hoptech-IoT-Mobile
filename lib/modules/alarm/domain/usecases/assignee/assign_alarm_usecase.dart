@@ -1,6 +1,6 @@
-import 'package:thingsboard_app/modules/alarm/domain/repository/details/i_alarm_details_repository.dart';
-import 'package:thingsboard_app/thingsboard_client.dart';
-import 'package:thingsboard_app/utils/usecase.dart';
+import 'package:hoptech_iot_app/modules/alarm/domain/repository/details/i_alarm_details_repository.dart';
+import 'package:hoptech_iot_app/thingsboard_client.dart';
+import 'package:hoptech_iot_app/utils/usecase.dart';
 
 class AssignAlarmUseCase extends UseCase<Future<AlarmInfo>, AssignAlarmParams> {
   const AssignAlarmUseCase(this.repository);

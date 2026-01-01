@@ -1,6 +1,6 @@
 import 'package:fluro/fluro.dart';
-import 'package:thingsboard_app/config/routes/tb_routes.dart';
-import 'package:thingsboard_app/modules/url/url_page.dart';
+import 'package:hoptech_iot_app/config/routes/tb_routes.dart';
+import 'package:hoptech_iot_app/modules/url/url_page.dart';
 
 class UrlPageRoutes extends TbRoutes {
   UrlPageRoutes(super.tbContext);

@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/services.dart' show MethodChannel;
-import 'package:thingsboard_app/core/auth/web/on_app_lifecycle_resume_observer.dart';
+import 'package:hoptech_iot_app/core/auth/web/on_app_lifecycle_resume_observer.dart';
 
 class TbWebAuth {
   static const MethodChannel _channel = MethodChannel('tb_web_auth');

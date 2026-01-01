@@ -1,5 +1,5 @@
-import 'package:thingsboard_app/constants/app_constants.dart';
-import 'package:thingsboard_app/thingsboard_client.dart' show PlatformType;
+import 'package:hoptech_iot_app/constants/app_constants.dart';
+import 'package:hoptech_iot_app/thingsboard_client.dart' show PlatformType;
 
 abstract class AppSecretProvider {
 

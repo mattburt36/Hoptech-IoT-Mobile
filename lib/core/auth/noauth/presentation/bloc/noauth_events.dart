@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:thingsboard_app/core/auth/noauth/data/model/switch_endpoint_args.dart';
+import 'package:hoptech_iot_app/core/auth/noauth/data/model/switch_endpoint_args.dart';
 
 sealed class NoAuthEvent extends Equatable {
   const NoAuthEvent();

@@ -1,5 +1,5 @@
-import 'package:thingsboard_app/core/entity/entities_base.dart';
-import 'package:thingsboard_app/thingsboard_client.dart';
+import 'package:hoptech_iot_app/core/entity/entities_base.dart';
+import 'package:hoptech_iot_app/thingsboard_client.dart';
 
 class AlarmActivityQueryCtrl extends PageKeyController<AlarmCommentsQuery> {
   AlarmActivityQueryCtrl({

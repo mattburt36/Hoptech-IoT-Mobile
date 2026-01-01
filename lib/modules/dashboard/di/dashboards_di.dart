@@ -1,9 +1,9 @@
-import 'package:thingsboard_app/locator.dart';
-import 'package:thingsboard_app/modules/dashboard/domain/pagination/dashboards_pagination_repository.dart';
-import 'package:thingsboard_app/modules/dashboard/domain/pagination/dashboards_query_ctrl.dart';
-import 'package:thingsboard_app/modules/dashboard/domain/usecases/fetch_dashboards_usecase.dart';
-import 'package:thingsboard_app/thingsboard_client.dart';
-import 'package:thingsboard_app/utils/services/mobile_actions/widget_action_handler.dart';
+import 'package:hoptech_iot_app/locator.dart';
+import 'package:hoptech_iot_app/modules/dashboard/domain/pagination/dashboards_pagination_repository.dart';
+import 'package:hoptech_iot_app/modules/dashboard/domain/pagination/dashboards_query_ctrl.dart';
+import 'package:hoptech_iot_app/modules/dashboard/domain/usecases/fetch_dashboards_usecase.dart';
+import 'package:hoptech_iot_app/thingsboard_client.dart';
+import 'package:hoptech_iot_app/utils/services/mobile_actions/widget_action_handler.dart';
 
 abstract class DashboardsDi {
   static void init(

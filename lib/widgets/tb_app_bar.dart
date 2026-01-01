@@ -2,9 +2,9 @@
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:super_tooltip/super_tooltip.dart';
-import 'package:thingsboard_app/config/themes/app_colors.dart';
-import 'package:thingsboard_app/core/context/tb_context_widget.dart';
-import 'package:thingsboard_app/utils/ui/tb_text_styles.dart';
+import 'package:hoptech_iot_app/config/themes/app_colors.dart';
+import 'package:hoptech_iot_app/core/context/tb_context_widget.dart';
+import 'package:hoptech_iot_app/utils/ui/tb_text_styles.dart';
 
 class TbAppBar extends TbContextWidget implements PreferredSizeWidget {
   TbAppBar(

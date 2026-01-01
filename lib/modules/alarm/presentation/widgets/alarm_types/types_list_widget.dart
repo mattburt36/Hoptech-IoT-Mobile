@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:infinite_scroll_pagination/infinite_scroll_pagination.dart';
-import 'package:thingsboard_app/core/context/tb_context.dart';
-import 'package:thingsboard_app/generated/l10n.dart';
-import 'package:thingsboard_app/locator.dart';
-import 'package:thingsboard_app/modules/alarm/presentation/bloc/alarm_types/bloc.dart';
-import 'package:thingsboard_app/thingsboard_client.dart';
-import 'package:thingsboard_app/widgets/tb_progress_indicator.dart';
+import 'package:hoptech_iot_app/core/context/tb_context.dart';
+import 'package:hoptech_iot_app/generated/l10n.dart';
+import 'package:hoptech_iot_app/locator.dart';
+import 'package:hoptech_iot_app/modules/alarm/presentation/bloc/alarm_types/bloc.dart';
+import 'package:hoptech_iot_app/thingsboard_client.dart';
+import 'package:hoptech_iot_app/widgets/tb_progress_indicator.dart';
 
 class TypesListWidget extends StatelessWidget {
   const TypesListWidget({

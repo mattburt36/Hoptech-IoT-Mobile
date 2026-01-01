@@ -1,7 +1,7 @@
 import 'package:fluro/fluro.dart';
-import 'package:thingsboard_app/config/routes/tb_routes.dart';
-import 'package:thingsboard_app/modules/device/provisioning/ble/view/eps_ble_provisioning_view.dart';
-import 'package:thingsboard_app/modules/device/provisioning/soft_ap/view/esp_softap_view.dart';
+import 'package:hoptech_iot_app/config/routes/tb_routes.dart';
+import 'package:hoptech_iot_app/modules/device/provisioning/ble/view/eps_ble_provisioning_view.dart';
+import 'package:hoptech_iot_app/modules/device/provisioning/soft_ap/view/esp_softap_view.dart';
 
 class EspProvisioningRoute extends TbRoutes {
   EspProvisioningRoute(super.tbContext);

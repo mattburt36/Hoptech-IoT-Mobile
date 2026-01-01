@@ -1,40 +1,40 @@
 import 'package:flutter/material.dart';
-import 'package:thingsboard_app/utils/transition/page_transitions.dart';
+import 'package:hoptech_iot_app/utils/transition/page_transitions.dart';
 
-const int _tbPrimaryColorValue = 0xFF305680;
+const int _tbPrimaryColorValue = 0xFF37474F;  // Dark grey-blue
 const Color _tbPrimaryColor = Color(_tbPrimaryColorValue);
-const Color _tbSecondaryColor = Color(0xFF527dad);
-const Color _tbDarkPrimaryColor = Color(0xFF9fa8da);
+const Color _tbSecondaryColor = Color(0xFF78909C);  // Medium grey-blue  
+const Color _tbDarkPrimaryColor = Color(0xFFB0BEC5);  // Light silver-grey
 Color get appPrimaryColor => _tbPrimaryColor;
-const int _tbTextColorValue = 0xFF282828;
+const int _tbTextColorValue = 0xFF212121;  // Dark grey text
 const Color _tbTextColor = Color(_tbTextColorValue);
 
 Typography tbTypography = Typography.material2018();
 
 const tbMatIndigo = MaterialColor(_tbPrimaryColorValue, <int, Color>{
-  50: Color(0xFFE8EAF6),
-  100: Color(0xFFC5CAE9),
-  200: Color(0xFF9FA8DA),
-  300: Color(0xFF7986CB),
-  400: Color(0xFF5C6BC0),
+  50: Color(0xFFECEFF1),
+  100: Color(0xFFCFD8DC),
+  200: Color(0xFFB0BEC5),
+  300: Color(0xFF90A4AE),
+  400: Color(0xFF78909C),
   500: _tbPrimaryColor,
   600: _tbSecondaryColor,
-  700: Color(0xFF303F9F),
-  800: Color(0xFF283593),
-  900: Color(0xFF1A237E),
+  700: Color(0xFF455A64),
+  800: Color(0xFF37474F),
+  900: Color(0xFF263238),
 });
 
 const tbDarkMatIndigo = MaterialColor(_tbPrimaryColorValue, <int, Color>{
-  50: Color(0xFFE8EAF6),
-  100: Color(0xFFC5CAE9),
-  200: Color(0xFF9FA8DA),
-  300: Color(0xFF7986CB),
-  400: Color(0xFF5C6BC0),
+  50: Color(0xFFECEFF1),
+  100: Color(0xFFCFD8DC),
+  200: Color(0xFFB0BEC5),
+  300: Color(0xFF90A4AE),
+  400: Color(0xFF78909C),
   500: _tbDarkPrimaryColor,
   600: _tbSecondaryColor,
-  700: Color(0xFF303F9F),
+  700: Color(0xFF455A64),
   800: _tbPrimaryColor,
-  900: Color(0xFF1A237E),
+  900: Color(0xFF263238),
 });
 
 final ThemeData theme = ThemeData(primarySwatch: tbMatIndigo);

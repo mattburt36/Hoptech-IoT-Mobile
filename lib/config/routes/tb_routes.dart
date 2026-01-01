@@ -1,7 +1,7 @@
 import 'package:fluro/fluro.dart';
-import 'package:thingsboard_app/config/routes/router.dart';
-import 'package:thingsboard_app/core/context/tb_context.dart';
-import 'package:thingsboard_app/locator.dart';
+import 'package:hoptech_iot_app/config/routes/router.dart';
+import 'package:hoptech_iot_app/core/context/tb_context.dart';
+import 'package:hoptech_iot_app/locator.dart';
 
 abstract class TbRoutes {
 

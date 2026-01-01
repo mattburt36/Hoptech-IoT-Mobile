@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart' show AppLifecycleState;
-import 'package:thingsboard_app/utils/services/communication/communication_event.dart';
+import 'package:hoptech_iot_app/utils/services/communication/communication_event.dart';
 
 
 final class AppLifecycleStateChangedEvent extends CommunicationEvent {

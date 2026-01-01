@@ -1,7 +1,7 @@
-import 'package:thingsboard_app/core/auth/oauth2/app_secret_provider.dart';
-import 'package:thingsboard_app/core/auth/oauth2/i_oauth2_client.dart';
-import 'package:thingsboard_app/core/auth/oauth2/tb_oauth2_client.dart';
-import 'package:thingsboard_app/locator.dart';
+import 'package:hoptech_iot_app/core/auth/oauth2/app_secret_provider.dart';
+import 'package:hoptech_iot_app/core/auth/oauth2/i_oauth2_client.dart';
+import 'package:hoptech_iot_app/core/auth/oauth2/tb_oauth2_client.dart';
+import 'package:hoptech_iot_app/locator.dart';
 
 abstract final class LoginDi {
   static const scopeName = 'LoginDi';

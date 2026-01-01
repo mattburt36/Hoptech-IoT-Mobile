@@ -1,5 +1,5 @@
-import 'package:thingsboard_app/core/logger/tb_logger.dart';
-import 'package:thingsboard_app/modules/alarm/presentation/bloc/filters/filters/i_alarm_filter.dart';
+import 'package:hoptech_iot_app/core/logger/tb_logger.dart';
+import 'package:hoptech_iot_app/modules/alarm/presentation/bloc/filters/filters/i_alarm_filter.dart';
 
 class AlarmTypeFilter<T> implements IAlarmFilter {
   AlarmTypeFilter({required this.logger, T? initiallySelected}) {

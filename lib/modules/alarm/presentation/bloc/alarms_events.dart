@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:thingsboard_app/modules/alarm/domain/entities/alarm_filters_entity.dart';
+import 'package:hoptech_iot_app/modules/alarm/domain/entities/alarm_filters_entity.dart';
 
 sealed class AlarmEvent extends Equatable {
   const AlarmEvent();

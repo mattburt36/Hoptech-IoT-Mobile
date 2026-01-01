@@ -1,8 +1,8 @@
 import 'dart:async';
 
 import 'package:infinite_scroll_pagination/infinite_scroll_pagination.dart';
-import 'package:thingsboard_app/modules/notification/controllers/notification_query_ctrl.dart';
-import 'package:thingsboard_app/thingsboard_client.dart';
+import 'package:hoptech_iot_app/modules/notification/controllers/notification_query_ctrl.dart';
+import 'package:hoptech_iot_app/thingsboard_client.dart';
 
 class NotificationPaginationRepository {
   NotificationPaginationRepository({

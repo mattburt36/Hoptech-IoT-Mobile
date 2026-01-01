@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:thingsboard_app/core/context/tb_context_widget.dart';
-import 'package:thingsboard_app/modules/dashboard/di/dashboards_di.dart';
-import 'package:thingsboard_app/modules/dashboard/main_dashboard_page.dart';
-import 'package:thingsboard_app/modules/dashboard/presentation/controller/dashboard_page_controller.dart';
-import 'package:thingsboard_app/modules/dashboard/presentation/widgets/dashboards_appbar.dart';
-import 'package:thingsboard_app/modules/dashboard/presentation/widgets/dashboards_grid.dart';
-import 'package:thingsboard_app/widgets/two_page_view.dart';
+import 'package:hoptech_iot_app/core/context/tb_context_widget.dart';
+import 'package:hoptech_iot_app/modules/dashboard/di/dashboards_di.dart';
+import 'package:hoptech_iot_app/modules/dashboard/main_dashboard_page.dart';
+import 'package:hoptech_iot_app/modules/dashboard/presentation/controller/dashboard_page_controller.dart';
+import 'package:hoptech_iot_app/modules/dashboard/presentation/widgets/dashboards_appbar.dart';
+import 'package:hoptech_iot_app/modules/dashboard/presentation/widgets/dashboards_grid.dart';
+import 'package:hoptech_iot_app/widgets/two_page_view.dart';
 
 class DashboardsPage extends TbContextWidget {
   DashboardsPage(

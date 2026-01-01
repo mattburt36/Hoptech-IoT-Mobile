@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:thingsboard_app/thingsboard_client.dart';
+import 'package:hoptech_iot_app/thingsboard_client.dart';
 
 sealed class AlarmActivityState extends Equatable {
   const AlarmActivityState();

@@ -1,5 +1,5 @@
-import 'package:thingsboard_app/core/entity/entity_details_page.dart';
-import 'package:thingsboard_app/thingsboard_client.dart';
+import 'package:hoptech_iot_app/core/entity/entity_details_page.dart';
+import 'package:hoptech_iot_app/thingsboard_client.dart';
 
 class CustomerDetailsPage extends ContactBasedDetailsPage<Customer> {
   CustomerDetailsPage(super.tbContext, String customerId, {super.key})

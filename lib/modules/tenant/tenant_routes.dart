@@ -1,9 +1,9 @@
 import 'package:fluro/fluro.dart';
 import 'package:flutter/widgets.dart';
-import 'package:thingsboard_app/config/routes/tb_routes.dart';
+import 'package:hoptech_iot_app/config/routes/tb_routes.dart';
 
-import 'package:thingsboard_app/modules/tenant/tenant_details_page.dart';
-import 'package:thingsboard_app/modules/tenant/tenants_page.dart';
+import 'package:hoptech_iot_app/modules/tenant/tenant_details_page.dart';
+import 'package:hoptech_iot_app/modules/tenant/tenants_page.dart';
 
 class TenantRoutes extends TbRoutes {
   TenantRoutes(super.tbContext);

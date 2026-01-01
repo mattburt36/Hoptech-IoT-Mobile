@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_form_builder/flutter_form_builder.dart';
 import 'package:form_builder_validators/form_builder_validators.dart';
-import 'package:thingsboard_app/config/routes/router.dart';
-import 'package:thingsboard_app/core/context/tb_context_widget.dart';
-import 'package:thingsboard_app/generated/l10n.dart';
-import 'package:thingsboard_app/locator.dart';
-import 'package:thingsboard_app/utils/services/overlay_service/i_overlay_service.dart';
-import 'package:thingsboard_app/widgets/tb_app_bar.dart';
-import 'package:thingsboard_app/widgets/tb_progress_indicator.dart';
+import 'package:hoptech_iot_app/config/routes/router.dart';
+import 'package:hoptech_iot_app/core/context/tb_context_widget.dart';
+import 'package:hoptech_iot_app/generated/l10n.dart';
+import 'package:hoptech_iot_app/locator.dart';
+import 'package:hoptech_iot_app/utils/services/overlay_service/i_overlay_service.dart';
+import 'package:hoptech_iot_app/widgets/tb_app_bar.dart';
+import 'package:hoptech_iot_app/widgets/tb_progress_indicator.dart';
 
 class ChangePasswordPage extends TbContextWidget {
   ChangePasswordPage(super.tbContext, {super.key});

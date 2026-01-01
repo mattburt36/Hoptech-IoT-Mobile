@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
-import 'package:thingsboard_app/constants/hive_type_adapter_ids.dart';
-import 'package:thingsboard_app/generated/l10n.dart';
+import 'package:hoptech_iot_app/constants/hive_type_adapter_ids.dart';
+import 'package:hoptech_iot_app/generated/l10n.dart';
 
 
 @HiveType(typeId: HiveTypeAdapterIds.regionAdapterId)

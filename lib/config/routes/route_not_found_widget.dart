@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:thingsboard_app/generated/l10n.dart';
+import 'package:hoptech_iot_app/generated/l10n.dart';
 
 class RouteNotFoundWidget extends StatelessWidget {
   const RouteNotFoundWidget({

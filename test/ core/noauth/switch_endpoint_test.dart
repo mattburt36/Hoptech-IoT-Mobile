@@ -3,16 +3,16 @@
 import 'package:bloc_test/bloc_test.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
-import 'package:thingsboard_app/constants/app_constants.dart';
-import 'package:thingsboard_app/core/auth/noauth/data/model/switch_endpoint_args.dart';
-import 'package:thingsboard_app/core/auth/noauth/di/noauth_di.dart';
-import 'package:thingsboard_app/core/auth/noauth/presentation/bloc/bloc.dart';
-import 'package:thingsboard_app/core/context/tb_context.dart';
-import 'package:thingsboard_app/core/logger/tb_logger.dart';
-import 'package:thingsboard_app/locator.dart';
-import 'package:thingsboard_app/thingsboard_client.dart';
-import 'package:thingsboard_app/utils/services/endpoint/i_endpoint_service.dart';
-import 'package:thingsboard_app/utils/services/firebase/i_firebase_service.dart';
+import 'package:hoptech_iot_app/constants/app_constants.dart';
+import 'package:hoptech_iot_app/core/auth/noauth/data/model/switch_endpoint_args.dart';
+import 'package:hoptech_iot_app/core/auth/noauth/di/noauth_di.dart';
+import 'package:hoptech_iot_app/core/auth/noauth/presentation/bloc/bloc.dart';
+import 'package:hoptech_iot_app/core/context/tb_context.dart';
+import 'package:hoptech_iot_app/core/logger/tb_logger.dart';
+import 'package:hoptech_iot_app/locator.dart';
+import 'package:hoptech_iot_app/thingsboard_client.dart';
+import 'package:hoptech_iot_app/utils/services/endpoint/i_endpoint_service.dart';
+import 'package:hoptech_iot_app/utils/services/firebase/i_firebase_service.dart';
 
 import '../../mocks.dart';
 

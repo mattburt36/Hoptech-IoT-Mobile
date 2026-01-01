@@ -1,5 +1,5 @@
-import 'package:thingsboard_app/locator.dart';
-import 'package:thingsboard_app/modules/notification/usecase/handle_notification_tap_usecase.dart';
+import 'package:hoptech_iot_app/locator.dart';
+import 'package:hoptech_iot_app/modules/notification/usecase/handle_notification_tap_usecase.dart';
 
 abstract final class NotifcationsDi {
   static const _scopeName = 'NotifcationsDi';

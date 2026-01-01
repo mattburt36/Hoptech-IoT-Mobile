@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:thingsboard_app/config/routes/router.dart';
-import 'package:thingsboard_app/constants/enviroment_variables.dart';
-import 'package:thingsboard_app/core/context/tb_context_widget.dart';
-import 'package:thingsboard_app/core/usecases/user_details_usecase.dart';
-import 'package:thingsboard_app/generated/l10n.dart';
-import 'package:thingsboard_app/locator.dart';
-import 'package:thingsboard_app/modules/main/main_navigation_item.dart';
-import 'package:thingsboard_app/modules/more/more_menu_item_widget.dart';
-import 'package:thingsboard_app/modules/more/profle_widget.dart';
-import 'package:thingsboard_app/thingsboard_client.dart';
-import 'package:thingsboard_app/utils/services/device_info/i_device_info_service.dart';
-import 'package:thingsboard_app/utils/services/layouts/i_layout_service.dart';
-import 'package:thingsboard_app/utils/services/notification_service.dart';
+import 'package:hoptech_iot_app/config/routes/router.dart';
+import 'package:hoptech_iot_app/constants/enviroment_variables.dart';
+import 'package:hoptech_iot_app/core/context/tb_context_widget.dart';
+import 'package:hoptech_iot_app/core/usecases/user_details_usecase.dart';
+import 'package:hoptech_iot_app/generated/l10n.dart';
+import 'package:hoptech_iot_app/locator.dart';
+import 'package:hoptech_iot_app/modules/main/main_navigation_item.dart';
+import 'package:hoptech_iot_app/modules/more/more_menu_item_widget.dart';
+import 'package:hoptech_iot_app/modules/more/profle_widget.dart';
+import 'package:hoptech_iot_app/thingsboard_client.dart';
+import 'package:hoptech_iot_app/utils/services/device_info/i_device_info_service.dart';
+import 'package:hoptech_iot_app/utils/services/layouts/i_layout_service.dart';
+import 'package:hoptech_iot_app/utils/services/notification_service.dart';
 
 
 class MorePage extends TbContextWidget {

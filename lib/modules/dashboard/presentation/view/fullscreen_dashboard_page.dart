@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:thingsboard_app/config/routes/router.dart';
-import 'package:thingsboard_app/core/context/tb_context_widget.dart';
-import 'package:thingsboard_app/locator.dart';
-import 'package:thingsboard_app/modules/dashboard/di/dashboards_di.dart';
-import 'package:thingsboard_app/modules/dashboard/presentation/controller/dashboard_controller.dart';
-import 'package:thingsboard_app/modules/dashboard/presentation/widgets/dashboard_widget.dart';
-import 'package:thingsboard_app/utils/services/endpoint/i_endpoint_service.dart';
-import 'package:thingsboard_app/widgets/tb_app_bar.dart';
+import 'package:hoptech_iot_app/config/routes/router.dart';
+import 'package:hoptech_iot_app/core/context/tb_context_widget.dart';
+import 'package:hoptech_iot_app/locator.dart';
+import 'package:hoptech_iot_app/modules/dashboard/di/dashboards_di.dart';
+import 'package:hoptech_iot_app/modules/dashboard/presentation/controller/dashboard_controller.dart';
+import 'package:hoptech_iot_app/modules/dashboard/presentation/widgets/dashboard_widget.dart';
+import 'package:hoptech_iot_app/utils/services/endpoint/i_endpoint_service.dart';
+import 'package:hoptech_iot_app/widgets/tb_app_bar.dart';
 
 class FullscreenDashboardPage extends TbPageWidget {
 

@@ -1,9 +1,9 @@
 import 'package:fluro/fluro.dart';
 import 'package:flutter/widgets.dart';
-import 'package:thingsboard_app/config/routes/tb_routes.dart';
+import 'package:hoptech_iot_app/config/routes/tb_routes.dart';
 
-import 'package:thingsboard_app/modules/customer/customer_details_page.dart';
-import 'package:thingsboard_app/modules/customer/customers_page.dart';
+import 'package:hoptech_iot_app/modules/customer/customer_details_page.dart';
+import 'package:hoptech_iot_app/modules/customer/customers_page.dart';
 
 class CustomerRoutes extends TbRoutes {
   CustomerRoutes(super.tbContext);

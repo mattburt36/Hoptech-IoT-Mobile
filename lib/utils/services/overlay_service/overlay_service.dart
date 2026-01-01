@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:thingsboard_app/config/routes/router.dart';
-import 'package:thingsboard_app/locator.dart';
-import 'package:thingsboard_app/utils/services/overlay_service/i_overlay_service.dart';
-import 'package:thingsboard_app/utils/services/overlay_service/notification_type.dart';
-import 'package:thingsboard_app/utils/translation_utils.dart';
+import 'package:hoptech_iot_app/config/routes/router.dart';
+import 'package:hoptech_iot_app/locator.dart';
+import 'package:hoptech_iot_app/utils/services/overlay_service/i_overlay_service.dart';
+import 'package:hoptech_iot_app/utils/services/overlay_service/notification_type.dart';
+import 'package:hoptech_iot_app/utils/translation_utils.dart';
 import 'package:toastification/toastification.dart';
 
 class OverlayService implements IOverlayService {

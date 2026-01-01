@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:thingsboard_app/core/entity/entity_details_page.dart';
-import 'package:thingsboard_app/generated/l10n.dart';
-import 'package:thingsboard_app/thingsboard_client.dart';
+import 'package:hoptech_iot_app/core/entity/entity_details_page.dart';
+import 'package:hoptech_iot_app/generated/l10n.dart';
+import 'package:hoptech_iot_app/thingsboard_client.dart';
 
 class AssetDetailsPage extends EntityDetailsPage<AssetInfo> {
   AssetDetailsPage(super.tbContext, String assetId, {super.key})

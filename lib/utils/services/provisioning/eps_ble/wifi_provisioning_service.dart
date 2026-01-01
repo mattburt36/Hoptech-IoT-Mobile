@@ -1,5 +1,5 @@
 import 'package:flutter_esp_ble_prov/flutter_esp_ble_prov.dart';
-import 'package:thingsboard_app/utils/services/provisioning/eps_ble/i_wifi_provisioning_service.dart';
+import 'package:hoptech_iot_app/utils/services/provisioning/eps_ble/i_wifi_provisioning_service.dart';
 
 class BleProvisioningService implements IBleProvisioningService {
   BleProvisioningService([FlutterEspBleProv? prov])

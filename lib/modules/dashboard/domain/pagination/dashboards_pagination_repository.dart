@@ -1,6 +1,6 @@
-import 'package:thingsboard_app/modules/dashboard/domain/pagination/dashboards_query_ctrl.dart';
-import 'package:thingsboard_app/thingsboard_client.dart';
-import 'package:thingsboard_app/utils/services/pagination_repository.dart';
+import 'package:hoptech_iot_app/modules/dashboard/domain/pagination/dashboards_query_ctrl.dart';
+import 'package:hoptech_iot_app/thingsboard_client.dart';
+import 'package:hoptech_iot_app/utils/services/pagination_repository.dart';
 
 final class DashboardsPaginationRepository
     extends PaginationRepository<PageLink, DashboardInfo> {

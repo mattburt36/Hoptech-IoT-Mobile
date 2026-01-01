@@ -1,10 +1,10 @@
 import 'package:fluro/fluro.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:thingsboard_app/config/routes/tb_routes.dart';
-import 'package:thingsboard_app/core/auth/login/login_page.dart';
-import 'package:thingsboard_app/core/auth/login/reset_password_request_page.dart';
-import 'package:thingsboard_app/core/auth/login/two_factor_authentication_page.dart';
+import 'package:hoptech_iot_app/config/routes/tb_routes.dart';
+import 'package:hoptech_iot_app/core/auth/login/login_page.dart';
+import 'package:hoptech_iot_app/core/auth/login/reset_password_request_page.dart';
+import 'package:hoptech_iot_app/core/auth/login/two_factor_authentication_page.dart';
 
 class AuthRoutes extends TbRoutes {
   AuthRoutes(super.tbContext);

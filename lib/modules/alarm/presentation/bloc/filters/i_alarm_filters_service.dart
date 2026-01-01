@@ -1,5 +1,5 @@
-import 'package:thingsboard_app/modules/alarm/domain/entities/alarm_filters_entity.dart';
-import 'package:thingsboard_app/modules/alarm/domain/entities/filter_data_entity.dart';
+import 'package:hoptech_iot_app/modules/alarm/domain/entities/alarm_filters_entity.dart';
+import 'package:hoptech_iot_app/modules/alarm/domain/entities/filter_data_entity.dart';
 
 enum Filters { status, severity, type, assignee }
 

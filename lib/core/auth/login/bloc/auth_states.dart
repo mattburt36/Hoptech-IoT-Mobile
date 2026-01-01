@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:thingsboard_app/thingsboard_client.dart' show OAuth2ClientInfo;
+import 'package:hoptech_iot_app/thingsboard_client.dart' show OAuth2ClientInfo;
 
 sealed class AuthState extends Equatable {
   const AuthState();

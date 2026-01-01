@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:thingsboard_app/config/routes/router.dart';
-import 'package:thingsboard_app/config/themes/tb_theme.dart';
-import 'package:thingsboard_app/generated/l10n.dart';
-import 'package:thingsboard_app/locator.dart';
-import 'package:thingsboard_app/utils/services/layouts/i_layout_service.dart';
+import 'package:hoptech_iot_app/config/routes/router.dart';
+import 'package:hoptech_iot_app/config/themes/tb_theme.dart';
+import 'package:hoptech_iot_app/generated/l10n.dart';
+import 'package:hoptech_iot_app/locator.dart';
+import 'package:hoptech_iot_app/utils/services/layouts/i_layout_service.dart';
 import 'package:toastification/toastification.dart';
 
 class ThingsboardApp extends StatefulWidget {

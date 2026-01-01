@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:thingsboard_app/core/context/tb_context_widget.dart';
-import 'package:thingsboard_app/locator.dart';
-import 'package:thingsboard_app/modules/layout_pages/bloc/bloc.dart';
-import 'package:thingsboard_app/modules/main/tb_navigation_bar_widget.dart';
-import 'package:thingsboard_app/utils/services/layouts/i_layout_service.dart';
-import 'package:thingsboard_app/utils/services/notification_service.dart';
-import 'package:thingsboard_app/widgets/tb_progress_indicator.dart';
+import 'package:hoptech_iot_app/core/context/tb_context_widget.dart';
+import 'package:hoptech_iot_app/locator.dart';
+import 'package:hoptech_iot_app/modules/layout_pages/bloc/bloc.dart';
+import 'package:hoptech_iot_app/modules/main/tb_navigation_bar_widget.dart';
+import 'package:hoptech_iot_app/utils/services/layouts/i_layout_service.dart';
+import 'package:hoptech_iot_app/utils/services/notification_service.dart';
+import 'package:hoptech_iot_app/widgets/tb_progress_indicator.dart';
 
 class MainPage extends TbPageWidget {
   MainPage(super.tbContext, {super.key});

@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:thingsboard_app/modules/device/provisioning/models/wifi_network.dart';
+import 'package:hoptech_iot_app/modules/device/provisioning/models/wifi_network.dart';
 
 sealed class EspSoftApState extends Equatable {
   const EspSoftApState();

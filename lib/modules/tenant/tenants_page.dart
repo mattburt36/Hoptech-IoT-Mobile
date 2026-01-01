@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:thingsboard_app/config/routes/router.dart';
-import 'package:thingsboard_app/core/context/tb_context_widget.dart';
-import 'package:thingsboard_app/core/entity/entities_base.dart';
-import 'package:thingsboard_app/locator.dart';
-import 'package:thingsboard_app/modules/tenant/tenants_list.dart';
-import 'package:thingsboard_app/widgets/tb_app_bar.dart';
-import 'package:thingsboard_app/widgets/tb_app_search_bar.dart';
+import 'package:hoptech_iot_app/config/routes/router.dart';
+import 'package:hoptech_iot_app/core/context/tb_context_widget.dart';
+import 'package:hoptech_iot_app/core/entity/entities_base.dart';
+import 'package:hoptech_iot_app/locator.dart';
+import 'package:hoptech_iot_app/modules/tenant/tenants_list.dart';
+import 'package:hoptech_iot_app/widgets/tb_app_bar.dart';
+import 'package:hoptech_iot_app/widgets/tb_app_search_bar.dart';
 
 class TenantsPage extends TbPageWidget {
 

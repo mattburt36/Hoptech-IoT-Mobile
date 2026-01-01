@@ -1,9 +1,9 @@
 import 'dart:async';
 
 import 'package:flutter_new_badger/flutter_new_badger.dart';
-import 'package:thingsboard_app/locator.dart';
-import 'package:thingsboard_app/modules/notification/service/i_notifications_local_service.dart';
-import 'package:thingsboard_app/thingsboard_client.dart';
+import 'package:hoptech_iot_app/locator.dart';
+import 'package:hoptech_iot_app/modules/notification/service/i_notifications_local_service.dart';
+import 'package:hoptech_iot_app/thingsboard_client.dart';
 
 final class NotificationsLocalService implements INotificationsLocalService {
   NotificationsLocalService() : storage = getIt();

@@ -1,10 +1,10 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:thingsboard_app/locator.dart';
-import 'package:thingsboard_app/modules/alarm/domain/usecases/alarms/fetch_alarm_usecase.dart';
-import 'package:thingsboard_app/modules/alarm/domain/usecases/details/acknowledge_alarm_usecase.dart';
-import 'package:thingsboard_app/modules/alarm/domain/usecases/details/clear_alarm_usecase.dart';
-import 'package:thingsboard_app/modules/alarm/presentation/bloc/alarm_details/bloc.dart';
-import 'package:thingsboard_app/thingsboard_client.dart';
+import 'package:hoptech_iot_app/locator.dart';
+import 'package:hoptech_iot_app/modules/alarm/domain/usecases/alarms/fetch_alarm_usecase.dart';
+import 'package:hoptech_iot_app/modules/alarm/domain/usecases/details/acknowledge_alarm_usecase.dart';
+import 'package:hoptech_iot_app/modules/alarm/domain/usecases/details/clear_alarm_usecase.dart';
+import 'package:hoptech_iot_app/modules/alarm/presentation/bloc/alarm_details/bloc.dart';
+import 'package:hoptech_iot_app/thingsboard_client.dart';
 
 class AlarmDetailsBloc extends Bloc<AlarmDetailsEvent, AlarmDetailsState> {
   AlarmDetailsBloc({

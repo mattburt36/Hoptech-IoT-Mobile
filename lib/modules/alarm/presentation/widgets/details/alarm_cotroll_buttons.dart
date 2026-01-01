@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:thingsboard_app/generated/l10n.dart';
-import 'package:thingsboard_app/modules/alarm/presentation/bloc/alarm_details/bloc.dart';
-import 'package:thingsboard_app/modules/alarm/presentation/widgets/details/alarm_status_button.dart';
-import 'package:thingsboard_app/utils/ui/tb_alert_dialog.dart';
-import 'package:thingsboard_app/utils/ui/tb_text_styles.dart';
+import 'package:hoptech_iot_app/generated/l10n.dart';
+import 'package:hoptech_iot_app/modules/alarm/presentation/bloc/alarm_details/bloc.dart';
+import 'package:hoptech_iot_app/modules/alarm/presentation/widgets/details/alarm_status_button.dart';
+import 'package:hoptech_iot_app/utils/ui/tb_alert_dialog.dart';
+import 'package:hoptech_iot_app/utils/ui/tb_text_styles.dart';
 
 class AlarmControlButtons extends StatelessWidget {
   const AlarmControlButtons({super.key});

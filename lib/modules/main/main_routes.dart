@@ -1,6 +1,6 @@
 import 'package:fluro/fluro.dart';
-import 'package:thingsboard_app/config/routes/tb_routes.dart';
-import 'package:thingsboard_app/modules/main/main_page.dart';
+import 'package:hoptech_iot_app/config/routes/tb_routes.dart';
+import 'package:hoptech_iot_app/modules/main/main_page.dart';
 
 class MainRoutes extends TbRoutes {
   MainRoutes(super.tbContext);

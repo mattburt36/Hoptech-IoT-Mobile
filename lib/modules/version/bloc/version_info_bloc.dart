@@ -1,5 +1,5 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:thingsboard_app/modules/version/bloc/bloc.dart';
+import 'package:hoptech_iot_app/modules/version/bloc/bloc.dart';
 
 class VersionInfoBloc extends Bloc<VersionInfoEvent, VersionInfoState> {
   VersionInfoBloc() : super(const VersionLoadingState()) {

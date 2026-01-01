@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:thingsboard_app/core/entity/entity_details_page.dart';
-import 'package:thingsboard_app/thingsboard_client.dart';
+import 'package:hoptech_iot_app/core/entity/entity_details_page.dart';
+import 'package:hoptech_iot_app/thingsboard_client.dart';
 
 class DeviceDetailsPage extends EntityDetailsPage<DeviceInfo> {
   DeviceDetailsPage(super.tbContext, String deviceId, {super.key})

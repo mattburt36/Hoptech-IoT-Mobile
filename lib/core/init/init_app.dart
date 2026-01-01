@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:thingsboard_app/core/context/tb_context_widget.dart';
-import 'package:thingsboard_app/widgets/tb_progress_indicator.dart';
+import 'package:hoptech_iot_app/core/context/tb_context_widget.dart';
+import 'package:hoptech_iot_app/widgets/tb_progress_indicator.dart';
 
 class ThingsboardInitApp extends TbPageWidget {
   ThingsboardInitApp(super.tbContext, {super.key});

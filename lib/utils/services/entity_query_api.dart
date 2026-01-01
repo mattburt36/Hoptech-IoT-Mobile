@@ -1,4 +1,4 @@
-import 'package:thingsboard_app/thingsboard_client.dart';
+import 'package:hoptech_iot_app/thingsboard_client.dart';
 
 abstract class EntityQueryApi {
   static final activeDeviceKeyFilter = KeyFilter(

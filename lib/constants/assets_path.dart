@@ -1,14 +1,14 @@
 abstract class ThingsboardImage {
   static const thingsBoardWithTitle =
-      'assets/images/thingsboard_with_title.svg';
-  static const thingsboard = 'assets/images/thingsboard.svg';
-  static const thingsboardOuter = 'assets/images/thingsboard_outer.svg';
-  static const thingsboardCenter = 'assets/images/thingsboard_center.svg';
+      'assets/images/hoptech_with_title.svg';
+  static const thingsboard = 'assets/images/hoptech.svg';
+  static const thingsboardOuter = 'assets/images/hoptech_outer.svg';
+  static const thingsboardCenter = 'assets/images/hoptech_center.svg';
   static const dashboardPlaceholder = 'assets/images/dashboard-placeholder.svg';
   static const deviceProfilePlaceholder =
       'assets/images/device-placeholder.svg';
   static const noDataImage = 'assets/images/no-data.svg';
-  static const thingsboardBigLogo = 'assets/images/thingsboard_big_logo.svg';
+  static const thingsboardBigLogo = 'assets/images/hoptech_big_logo.svg';
   static const deviceProvisioning = 'assets/images/provisioning.svg';
   static const deviceProvisioningDone = 'assets/images/provisioning-done.svg';
   static const deviceProvisioningError =

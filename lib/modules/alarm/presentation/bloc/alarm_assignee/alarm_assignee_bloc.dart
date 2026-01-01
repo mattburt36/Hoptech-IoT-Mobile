@@ -1,16 +1,16 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:thingsboard_app/core/usecases/user_details_usecase.dart';
-import 'package:thingsboard_app/locator.dart';
-import 'package:thingsboard_app/modules/alarm/domain/entities/assignee_entity.dart';
-import 'package:thingsboard_app/modules/alarm/domain/pagination/assignee/alarm_assignee_pagiation_repository.dart';
-import 'package:thingsboard_app/modules/alarm/domain/pagination/assignee/alarm_assignee_query_ctrl.dart';
-import 'package:thingsboard_app/modules/alarm/domain/usecases/alarms/fetch_alarm_usecase.dart';
-import 'package:thingsboard_app/modules/alarm/domain/usecases/assignee/assign_alarm_usecase.dart';
-import 'package:thingsboard_app/modules/alarm/domain/usecases/assignee/unassign_alarm_usecase.dart';
-import 'package:thingsboard_app/modules/alarm/presentation/bloc/alarm_assignee/bloc.dart';
-import 'package:thingsboard_app/thingsboard_client.dart';
-import 'package:thingsboard_app/utils/services/communication/events/alarm_assignee_updated_event.dart';
-import 'package:thingsboard_app/utils/services/communication/i_communication_service.dart';
+import 'package:hoptech_iot_app/core/usecases/user_details_usecase.dart';
+import 'package:hoptech_iot_app/locator.dart';
+import 'package:hoptech_iot_app/modules/alarm/domain/entities/assignee_entity.dart';
+import 'package:hoptech_iot_app/modules/alarm/domain/pagination/assignee/alarm_assignee_pagiation_repository.dart';
+import 'package:hoptech_iot_app/modules/alarm/domain/pagination/assignee/alarm_assignee_query_ctrl.dart';
+import 'package:hoptech_iot_app/modules/alarm/domain/usecases/alarms/fetch_alarm_usecase.dart';
+import 'package:hoptech_iot_app/modules/alarm/domain/usecases/assignee/assign_alarm_usecase.dart';
+import 'package:hoptech_iot_app/modules/alarm/domain/usecases/assignee/unassign_alarm_usecase.dart';
+import 'package:hoptech_iot_app/modules/alarm/presentation/bloc/alarm_assignee/bloc.dart';
+import 'package:hoptech_iot_app/thingsboard_client.dart';
+import 'package:hoptech_iot_app/utils/services/communication/events/alarm_assignee_updated_event.dart';
+import 'package:hoptech_iot_app/utils/services/communication/i_communication_service.dart';
 
 class AlarmAssigneeBloc extends Bloc<AlarmAssigneeEvent, AlarmAssigneeState> {
   AlarmAssigneeBloc({

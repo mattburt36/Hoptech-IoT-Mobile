@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:thingsboard_app/core/context/tb_context.dart';
-import 'package:thingsboard_app/generated/l10n.dart';
-import 'package:thingsboard_app/modules/device/provisioning/ble/bloc/bloc.dart';
-import 'package:thingsboard_app/modules/device/provisioning/widgets/enter_password_dialog.dart';
-import 'package:thingsboard_app/modules/device/provisioning/widgets/help_message_widget.dart';
-import 'package:thingsboard_app/modules/device/provisioning/widgets/scan_list_widget.dart';
+import 'package:hoptech_iot_app/core/context/tb_context.dart';
+import 'package:hoptech_iot_app/generated/l10n.dart';
+import 'package:hoptech_iot_app/modules/device/provisioning/ble/bloc/bloc.dart';
+import 'package:hoptech_iot_app/modules/device/provisioning/widgets/enter_password_dialog.dart';
+import 'package:hoptech_iot_app/modules/device/provisioning/widgets/help_message_widget.dart';
+import 'package:hoptech_iot_app/modules/device/provisioning/widgets/scan_list_widget.dart';
 
 class EspWifiNetworkView extends StatelessWidget {
   const EspWifiNetworkView({

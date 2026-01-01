@@ -2,10 +2,10 @@ import 'dart:io';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:mime/mime.dart';
-import 'package:thingsboard_app/utils/services/mobile_actions/mobile_action.dart';
-import 'package:thingsboard_app/utils/services/mobile_actions/mobile_action_result.dart';
-import 'package:thingsboard_app/utils/services/mobile_actions/widget_mobile_action_result.dart';
-import 'package:thingsboard_app/utils/services/mobile_actions/widget_mobile_action_type.dart';
+import 'package:hoptech_iot_app/utils/services/mobile_actions/mobile_action.dart';
+import 'package:hoptech_iot_app/utils/services/mobile_actions/mobile_action_result.dart';
+import 'package:hoptech_iot_app/utils/services/mobile_actions/widget_mobile_action_result.dart';
+import 'package:hoptech_iot_app/utils/services/mobile_actions/widget_mobile_action_type.dart';
 
 class TakePictureFromGalleryAction extends MobileAction {
   ImageSource get imageSource => ImageSource.gallery;

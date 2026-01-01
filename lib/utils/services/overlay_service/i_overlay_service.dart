@@ -1,5 +1,5 @@
 
-import 'package:thingsboard_app/utils/translation_utils.dart';
+import 'package:hoptech_iot_app/utils/translation_utils.dart';
 
 abstract interface class IOverlayService {
   void hideNotification();

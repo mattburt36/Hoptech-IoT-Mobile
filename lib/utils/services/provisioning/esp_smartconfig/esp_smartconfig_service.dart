@@ -1,6 +1,6 @@
 
 import 'package:esp_smartconfig/esp_smartconfig.dart';
-import 'package:thingsboard_app/utils/services/provisioning/esp_smartconfig/i_esp_smartconfig_service.dart';
+import 'package:hoptech_iot_app/utils/services/provisioning/esp_smartconfig/i_esp_smartconfig_service.dart';
 
 class EspSmartConfigService implements IEspSmartConfigService {
   const EspSmartConfigService(this.provisioner);

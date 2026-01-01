@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:thingsboard_app/config/themes/app_colors.dart';
-import 'package:thingsboard_app/generated/l10n.dart';
-import 'package:thingsboard_app/utils/ui/qr_code_scanner/scan_area_clipper.dart';
-import 'package:thingsboard_app/utils/ui/tb_text_styles.dart';
-import 'package:thingsboard_app/utils/utils.dart';
+import 'package:hoptech_iot_app/config/themes/app_colors.dart';
+import 'package:hoptech_iot_app/generated/l10n.dart';
+import 'package:hoptech_iot_app/utils/ui/qr_code_scanner/scan_area_clipper.dart';
+import 'package:hoptech_iot_app/utils/ui/tb_text_styles.dart';
+import 'package:hoptech_iot_app/utils/utils.dart';
 
 class ScannerOverlayWidget extends StatelessWidget {
   const ScannerOverlayWidget({

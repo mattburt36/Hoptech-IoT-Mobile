@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:thingsboard_app/config/routes/router.dart';
-import 'package:thingsboard_app/core/auth/login/bloc/bloc.dart';
-import 'package:thingsboard_app/locator.dart';
-import 'package:thingsboard_app/modules/version/route/version_route.dart';
-import 'package:thingsboard_app/modules/version/route/version_route_arguments.dart';
-import 'package:thingsboard_app/thingsboard_client.dart';
-import 'package:thingsboard_app/utils/services/device_info/i_device_info_service.dart';
+import 'package:hoptech_iot_app/config/routes/router.dart';
+import 'package:hoptech_iot_app/core/auth/login/bloc/bloc.dart';
+import 'package:hoptech_iot_app/locator.dart';
+import 'package:hoptech_iot_app/modules/version/route/version_route.dart';
+import 'package:hoptech_iot_app/modules/version/route/version_route_arguments.dart';
+import 'package:hoptech_iot_app/thingsboard_client.dart';
+import 'package:hoptech_iot_app/utils/services/device_info/i_device_info_service.dart';
 
 class AuthBloc extends Bloc<AuthEvent, AuthState> {
   AuthBloc({

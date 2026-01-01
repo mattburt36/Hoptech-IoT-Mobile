@@ -6,15 +6,15 @@ import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 import 'package:get_it/get_it.dart';
 import 'package:mobile_scanner/mobile_scanner.dart';
 
-import 'package:thingsboard_app/config/routes/router.dart';
-import 'package:thingsboard_app/core/context/tb_context.dart';
-import 'package:thingsboard_app/locator.dart';
-import 'package:thingsboard_app/modules/device/provisioning/route/esp_provisioning_route.dart';
-import 'package:thingsboard_app/thingsboard_client.dart';
-import 'package:thingsboard_app/utils/services/mobile_actions/mobile_action.dart';
-import 'package:thingsboard_app/utils/services/mobile_actions/mobile_action_result.dart';
-import 'package:thingsboard_app/utils/services/mobile_actions/widget_mobile_action_result.dart';
-import 'package:thingsboard_app/utils/services/mobile_actions/widget_mobile_action_type.dart';
+import 'package:hoptech_iot_app/config/routes/router.dart';
+import 'package:hoptech_iot_app/core/context/tb_context.dart';
+import 'package:hoptech_iot_app/locator.dart';
+import 'package:hoptech_iot_app/modules/device/provisioning/route/esp_provisioning_route.dart';
+import 'package:hoptech_iot_app/thingsboard_client.dart';
+import 'package:hoptech_iot_app/utils/services/mobile_actions/mobile_action.dart';
+import 'package:hoptech_iot_app/utils/services/mobile_actions/mobile_action_result.dart';
+import 'package:hoptech_iot_app/utils/services/mobile_actions/widget_mobile_action_result.dart';
+import 'package:hoptech_iot_app/utils/services/mobile_actions/widget_mobile_action_type.dart';
 
 class DeviceProvisioningAction extends MobileAction {
   late final TbContext tbContext = GetIt.I<ThingsboardAppRouter>().tbContext;

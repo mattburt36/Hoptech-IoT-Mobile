@@ -1,7 +1,7 @@
 import 'dart:typed_data';
 
 import 'package:esp_provisioning_softap/esp_provisioning_softap.dart';
-import 'package:thingsboard_app/utils/services/provisioning/soft_ap/i_soft_ap_service.dart';
+import 'package:hoptech_iot_app/utils/services/provisioning/soft_ap/i_soft_ap_service.dart';
 
 class SoftApService implements ISoftApService {
   @override

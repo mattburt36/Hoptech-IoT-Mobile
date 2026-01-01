@@ -1,22 +1,22 @@
-import 'package:thingsboard_app/locator.dart';
-import 'package:thingsboard_app/modules/alarm/data/datasource/details/alarm_details_datasource.dart';
-import 'package:thingsboard_app/modules/alarm/data/datasource/details/i_alarm_details_datasource.dart';
-import 'package:thingsboard_app/modules/alarm/data/repository/details/alarm_details_repository.dart';
-import 'package:thingsboard_app/modules/alarm/domain/pagination/activity/alarm_activity_pagination_repository.dart';
-import 'package:thingsboard_app/modules/alarm/domain/pagination/activity/alarm_activity_query_ctrl.dart';
-import 'package:thingsboard_app/modules/alarm/domain/pagination/assignee/alarm_assignee_pagiation_repository.dart';
-import 'package:thingsboard_app/modules/alarm/domain/pagination/assignee/alarm_assignee_query_ctrl.dart';
-import 'package:thingsboard_app/modules/alarm/domain/repository/details/i_alarm_details_repository.dart';
-import 'package:thingsboard_app/modules/alarm/domain/usecases/alarms/fetch_alarm_usecase.dart';
-import 'package:thingsboard_app/modules/alarm/domain/usecases/assignee/assign_alarm_usecase.dart';
-import 'package:thingsboard_app/modules/alarm/domain/usecases/assignee/fetch_alarm_assignee_usecase.dart';
-import 'package:thingsboard_app/modules/alarm/domain/usecases/assignee/unassign_alarm_usecase.dart';
-import 'package:thingsboard_app/modules/alarm/domain/usecases/details/acknowledge_alarm_usecase.dart';
-import 'package:thingsboard_app/modules/alarm/domain/usecases/details/clear_alarm_usecase.dart';
-import 'package:thingsboard_app/modules/alarm/domain/usecases/details/delete_alarm_comment_usecase.dart';
-import 'package:thingsboard_app/modules/alarm/domain/usecases/details/fetch_alarm_comments_usecase.dart';
-import 'package:thingsboard_app/modules/alarm/domain/usecases/details/post_alarm_comments_usecase.dart';
-import 'package:thingsboard_app/thingsboard_client.dart';
+import 'package:hoptech_iot_app/locator.dart';
+import 'package:hoptech_iot_app/modules/alarm/data/datasource/details/alarm_details_datasource.dart';
+import 'package:hoptech_iot_app/modules/alarm/data/datasource/details/i_alarm_details_datasource.dart';
+import 'package:hoptech_iot_app/modules/alarm/data/repository/details/alarm_details_repository.dart';
+import 'package:hoptech_iot_app/modules/alarm/domain/pagination/activity/alarm_activity_pagination_repository.dart';
+import 'package:hoptech_iot_app/modules/alarm/domain/pagination/activity/alarm_activity_query_ctrl.dart';
+import 'package:hoptech_iot_app/modules/alarm/domain/pagination/assignee/alarm_assignee_pagiation_repository.dart';
+import 'package:hoptech_iot_app/modules/alarm/domain/pagination/assignee/alarm_assignee_query_ctrl.dart';
+import 'package:hoptech_iot_app/modules/alarm/domain/repository/details/i_alarm_details_repository.dart';
+import 'package:hoptech_iot_app/modules/alarm/domain/usecases/alarms/fetch_alarm_usecase.dart';
+import 'package:hoptech_iot_app/modules/alarm/domain/usecases/assignee/assign_alarm_usecase.dart';
+import 'package:hoptech_iot_app/modules/alarm/domain/usecases/assignee/fetch_alarm_assignee_usecase.dart';
+import 'package:hoptech_iot_app/modules/alarm/domain/usecases/assignee/unassign_alarm_usecase.dart';
+import 'package:hoptech_iot_app/modules/alarm/domain/usecases/details/acknowledge_alarm_usecase.dart';
+import 'package:hoptech_iot_app/modules/alarm/domain/usecases/details/clear_alarm_usecase.dart';
+import 'package:hoptech_iot_app/modules/alarm/domain/usecases/details/delete_alarm_comment_usecase.dart';
+import 'package:hoptech_iot_app/modules/alarm/domain/usecases/details/fetch_alarm_comments_usecase.dart';
+import 'package:hoptech_iot_app/modules/alarm/domain/usecases/details/post_alarm_comments_usecase.dart';
+import 'package:hoptech_iot_app/thingsboard_client.dart';
 
 abstract final class AlarmDetailsDi {
 

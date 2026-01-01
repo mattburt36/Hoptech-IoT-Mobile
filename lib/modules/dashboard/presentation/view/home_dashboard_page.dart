@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:thingsboard_app/core/context/tb_context_widget.dart';
-import 'package:thingsboard_app/locator.dart';
-import 'package:thingsboard_app/modules/dashboard/di/dashboards_di.dart';
-import 'package:thingsboard_app/modules/dashboard/presentation/controller/dashboard_controller.dart';
-import 'package:thingsboard_app/modules/dashboard/presentation/widgets/dashboard_widget.dart';
-import 'package:thingsboard_app/modules/dashboard/presentation/widgets/dashboards_appbar.dart';
-import 'package:thingsboard_app/thingsboard_client.dart';
-import 'package:thingsboard_app/utils/services/endpoint/i_endpoint_service.dart';
+import 'package:hoptech_iot_app/core/context/tb_context_widget.dart';
+import 'package:hoptech_iot_app/locator.dart';
+import 'package:hoptech_iot_app/modules/dashboard/di/dashboards_di.dart';
+import 'package:hoptech_iot_app/modules/dashboard/presentation/controller/dashboard_controller.dart';
+import 'package:hoptech_iot_app/modules/dashboard/presentation/widgets/dashboard_widget.dart';
+import 'package:hoptech_iot_app/modules/dashboard/presentation/widgets/dashboards_appbar.dart';
+import 'package:hoptech_iot_app/thingsboard_client.dart';
+import 'package:hoptech_iot_app/utils/services/endpoint/i_endpoint_service.dart';
 
 class HomeDashboardPage extends TbContextWidget {
   HomeDashboardPage(super.tbContext, this.dashboard, {super.key});

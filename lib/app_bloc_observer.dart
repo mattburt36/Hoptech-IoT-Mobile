@@ -1,5 +1,5 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:thingsboard_app/core/logger/tb_logger.dart';
+import 'package:hoptech_iot_app/core/logger/tb_logger.dart';
 
 class AppBlocObserver extends BlocObserver {
   const AppBlocObserver(this.logger);

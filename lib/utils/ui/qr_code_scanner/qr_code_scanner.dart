@@ -5,14 +5,14 @@ import 'package:flutter/services.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:mobile_scanner/mobile_scanner.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'package:thingsboard_app/config/routes/router.dart';
-import 'package:thingsboard_app/config/themes/app_colors.dart';
-import 'package:thingsboard_app/generated/l10n.dart';
-import 'package:thingsboard_app/locator.dart';
-import 'package:thingsboard_app/utils/services/overlay_service/i_overlay_service.dart';
-import 'package:thingsboard_app/utils/ui/qr_code_scanner/scanner_error_widget.dart';
-import 'package:thingsboard_app/utils/ui/qr_code_scanner/scanner_overlay_widget.dart';
-import 'package:thingsboard_app/utils/ui/tb_text_styles.dart';
+import 'package:hoptech_iot_app/config/routes/router.dart';
+import 'package:hoptech_iot_app/config/themes/app_colors.dart';
+import 'package:hoptech_iot_app/generated/l10n.dart';
+import 'package:hoptech_iot_app/locator.dart';
+import 'package:hoptech_iot_app/utils/services/overlay_service/i_overlay_service.dart';
+import 'package:hoptech_iot_app/utils/ui/qr_code_scanner/scanner_error_widget.dart';
+import 'package:hoptech_iot_app/utils/ui/qr_code_scanner/scanner_overlay_widget.dart';
+import 'package:hoptech_iot_app/utils/ui/tb_text_styles.dart';
 
 Size getCameraSize(Size mediaQuerySize) {
   final scanArea = (mediaQuerySize.width < 400 || mediaQuerySize.height < 400)

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:thingsboard_app/modules/main/main_navigation_item.dart';
+import 'package:hoptech_iot_app/modules/main/main_navigation_item.dart';
 
 class TbNavigationBarWidget extends StatelessWidget {
   const TbNavigationBarWidget({

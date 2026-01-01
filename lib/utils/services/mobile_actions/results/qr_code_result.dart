@@ -1,4 +1,4 @@
-import 'package:thingsboard_app/utils/services/mobile_actions/mobile_action_result.dart';
+import 'package:hoptech_iot_app/utils/services/mobile_actions/mobile_action_result.dart';
 
 class QrCodeResult extends MobileActionResult {
 

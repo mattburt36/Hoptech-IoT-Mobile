@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:thingsboard_app/generated/l10n.dart';
-import 'package:thingsboard_app/modules/device/provisioning/view/states/connection_state_row.dart';
+import 'package:hoptech_iot_app/generated/l10n.dart';
+import 'package:hoptech_iot_app/modules/device/provisioning/view/states/connection_state_row.dart';
 
 class SendingWifiCredentials extends StatelessWidget {
   const SendingWifiCredentials({super.key});

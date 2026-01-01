@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:thingsboard_app/core/context/tb_context_widget.dart';
-import 'package:thingsboard_app/generated/l10n.dart';
-import 'package:thingsboard_app/thingsboard_client.dart';
-import 'package:thingsboard_app/widgets/tb_app_bar.dart';
-import 'package:thingsboard_app/widgets/tb_progress_indicator.dart';
+import 'package:hoptech_iot_app/core/context/tb_context_widget.dart';
+import 'package:hoptech_iot_app/generated/l10n.dart';
+import 'package:hoptech_iot_app/thingsboard_client.dart';
+import 'package:hoptech_iot_app/widgets/tb_app_bar.dart';
+import 'package:hoptech_iot_app/widgets/tb_progress_indicator.dart';
 
 abstract class EntityDetailsPage<T extends BaseData> extends TbContextWidget {
 

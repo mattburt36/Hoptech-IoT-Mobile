@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:thingsboard_app/thingsboard_client.dart';
-import 'package:thingsboard_app/utils/ui/tb_text_styles.dart';
+import 'package:hoptech_iot_app/thingsboard_client.dart';
+import 'package:hoptech_iot_app/utils/ui/tb_text_styles.dart';
 import 'package:timeago/timeago.dart' as timeago;
 
 class SystemActivityWidget extends StatelessWidget {

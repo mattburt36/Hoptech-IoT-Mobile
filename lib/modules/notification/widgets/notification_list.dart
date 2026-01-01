@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:infinite_scroll_pagination/infinite_scroll_pagination.dart';
-import 'package:thingsboard_app/core/context/tb_context.dart';
-import 'package:thingsboard_app/modules/notification/widgets/no_notifications_found_widget.dart';
-import 'package:thingsboard_app/modules/notification/widgets/notification_slidable_widget.dart';
-import 'package:thingsboard_app/modules/notification/widgets/notification_widget.dart';
-import 'package:thingsboard_app/thingsboard_client.dart';
-import 'package:thingsboard_app/widgets/tb_progress_indicator.dart';
+import 'package:hoptech_iot_app/core/context/tb_context.dart';
+import 'package:hoptech_iot_app/modules/notification/widgets/no_notifications_found_widget.dart';
+import 'package:hoptech_iot_app/modules/notification/widgets/notification_slidable_widget.dart';
+import 'package:hoptech_iot_app/modules/notification/widgets/notification_widget.dart';
+import 'package:hoptech_iot_app/thingsboard_client.dart';
+import 'package:hoptech_iot_app/widgets/tb_progress_indicator.dart';
 
 class NotificationsList extends StatelessWidget {
   const NotificationsList({

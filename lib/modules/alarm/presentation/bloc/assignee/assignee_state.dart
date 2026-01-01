@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:thingsboard_app/modules/alarm/domain/entities/assignee_entity.dart';
+import 'package:hoptech_iot_app/modules/alarm/domain/entities/assignee_entity.dart';
 
 sealed class AssigneeState extends Equatable {
   const AssigneeState();

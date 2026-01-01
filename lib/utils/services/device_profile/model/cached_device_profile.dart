@@ -1,5 +1,5 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:thingsboard_app/thingsboard_client.dart';
+import 'package:hoptech_iot_app/thingsboard_client.dart';
 part 'cached_device_profile.freezed.dart';
 @freezed
 abstract class CachedDeviceProfileInfo with _$CachedDeviceProfileInfo {

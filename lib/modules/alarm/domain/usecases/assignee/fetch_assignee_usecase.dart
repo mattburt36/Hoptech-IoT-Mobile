@@ -1,9 +1,9 @@
-import 'package:thingsboard_app/core/usecases/user_details_usecase.dart';
-import 'package:thingsboard_app/locator.dart';
-import 'package:thingsboard_app/modules/alarm/domain/entities/assignee_entity.dart';
-import 'package:thingsboard_app/modules/alarm/domain/repository/assignee/i_assigne_repository.dart';
-import 'package:thingsboard_app/thingsboard_client.dart';
-import 'package:thingsboard_app/utils/usecase.dart';
+import 'package:hoptech_iot_app/core/usecases/user_details_usecase.dart';
+import 'package:hoptech_iot_app/locator.dart';
+import 'package:hoptech_iot_app/modules/alarm/domain/entities/assignee_entity.dart';
+import 'package:hoptech_iot_app/modules/alarm/domain/repository/assignee/i_assigne_repository.dart';
+import 'package:hoptech_iot_app/thingsboard_client.dart';
+import 'package:hoptech_iot_app/utils/usecase.dart';
 
 class FetchAssigneeUseCase
     extends UseCase<Future<PageData<AssigneeEntity>>, PageLink> {

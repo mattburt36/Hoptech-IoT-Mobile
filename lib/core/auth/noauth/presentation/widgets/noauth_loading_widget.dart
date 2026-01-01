@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:thingsboard_app/widgets/tb_progress_indicator.dart';
+import 'package:hoptech_iot_app/widgets/tb_progress_indicator.dart';
 
 class NoAuthLoadingWidget extends StatelessWidget {
   const NoAuthLoadingWidget({super.key});

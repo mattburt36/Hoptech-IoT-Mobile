@@ -1,7 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
-import 'package:thingsboard_app/core/logger/tb_logger.dart';
-import 'package:thingsboard_app/utils/services/endpoint/i_endpoint_service.dart';
-import 'package:thingsboard_app/utils/services/firebase/i_firebase_service.dart';
+import 'package:hoptech_iot_app/core/logger/tb_logger.dart';
+import 'package:hoptech_iot_app/utils/services/endpoint/i_endpoint_service.dart';
+import 'package:hoptech_iot_app/utils/services/firebase/i_firebase_service.dart';
 
 class FirebaseService implements IFirebaseService {
   FirebaseService({

@@ -1,8 +1,8 @@
 import 'package:flutter/foundation.dart';
-import 'package:thingsboard_app/constants/app_constants.dart';
-import 'package:thingsboard_app/core/auth/login/select_region/model/region.dart';
-import 'package:thingsboard_app/utils/services/endpoint/i_endpoint_service.dart';
-import 'package:thingsboard_app/utils/services/local_database/i_local_database_service.dart';
+import 'package:hoptech_iot_app/constants/app_constants.dart';
+import 'package:hoptech_iot_app/core/auth/login/select_region/model/region.dart';
+import 'package:hoptech_iot_app/utils/services/endpoint/i_endpoint_service.dart';
+import 'package:hoptech_iot_app/utils/services/local_database/i_local_database_service.dart';
 
 class EndpointService implements IEndpointService {
   EndpointService({required this.databaseService});

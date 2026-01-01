@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:thingsboard_app/config/routes/router.dart';
-import 'package:thingsboard_app/constants/assets_path.dart';
-import 'package:thingsboard_app/core/auth/login/select_region/model/region.dart';
-import 'package:thingsboard_app/core/context/tb_context_widget.dart';
-import 'package:thingsboard_app/generated/l10n.dart';
-import 'package:thingsboard_app/locator.dart';
-import 'package:thingsboard_app/utils/services/endpoint/i_endpoint_service.dart';
-import 'package:thingsboard_app/utils/ui/tb_text_styles.dart';
+import 'package:hoptech_iot_app/config/routes/router.dart';
+import 'package:hoptech_iot_app/constants/assets_path.dart';
+import 'package:hoptech_iot_app/core/auth/login/select_region/model/region.dart';
+import 'package:hoptech_iot_app/core/context/tb_context_widget.dart';
+import 'package:hoptech_iot_app/generated/l10n.dart';
+import 'package:hoptech_iot_app/locator.dart';
+import 'package:hoptech_iot_app/utils/services/endpoint/i_endpoint_service.dart';
+import 'package:hoptech_iot_app/utils/ui/tb_text_styles.dart';
 
 class SelectRegionScreen extends TbContextStatelessWidget {
   SelectRegionScreen(super.tbContext, {super.key});
@@ -18,7 +18,19 @@ class SelectRegionScreen extends TbContextStatelessWidget {
       body: SafeArea(
         child: Column(
           children: [
-            SvgPicture.asset(ThingsboardImage.thingsboardBigLogo),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 40.0, vertical: 24.0),
+              child: ConstrainedBox(
+                constraints: const BoxConstraints(
+                  maxHeight: 120,
+                  maxWidth: double.infinity,
+                ),
+                child: SvgPicture.asset(
+                  ThingsboardImage.thingsboardBigLogo,
+                  fit: BoxFit.contain,
+                ),
+              ),
+            ),
             const SizedBox(height: 166),
             Expanded(
               child: Padding(

@@ -3,15 +3,15 @@ import 'dart:convert';
 
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
-import 'package:thingsboard_app/config/routes/router.dart';
-import 'package:thingsboard_app/config/themes/tb_theme.dart';
-import 'package:thingsboard_app/core/context/tb_context.dart';
-import 'package:thingsboard_app/core/logger/tb_logger.dart';
-import 'package:thingsboard_app/locator.dart';
-import 'package:thingsboard_app/modules/notification/service/i_notifications_local_service.dart';
-import 'package:thingsboard_app/modules/notification/service/notifications_local_service.dart';
-import 'package:thingsboard_app/thingsboard_client.dart';
-import 'package:thingsboard_app/utils/utils.dart';
+import 'package:hoptech_iot_app/config/routes/router.dart';
+import 'package:hoptech_iot_app/config/themes/tb_theme.dart';
+import 'package:hoptech_iot_app/core/context/tb_context.dart';
+import 'package:hoptech_iot_app/core/logger/tb_logger.dart';
+import 'package:hoptech_iot_app/locator.dart';
+import 'package:hoptech_iot_app/modules/notification/service/i_notifications_local_service.dart';
+import 'package:hoptech_iot_app/modules/notification/service/notifications_local_service.dart';
+import 'package:hoptech_iot_app/thingsboard_client.dart';
+import 'package:hoptech_iot_app/utils/utils.dart';
 
 class NotificationService {
   NotificationService(this._tbClient, this._log, this._tbContext);

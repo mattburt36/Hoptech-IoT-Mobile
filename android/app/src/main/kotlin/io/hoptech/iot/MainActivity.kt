@@ -1,4 +1,4 @@
-package org.thingsboard.app
+package io.hoptech.iot
 
 import androidx.annotation.NonNull
 import io.flutter.embedding.android.FlutterActivity

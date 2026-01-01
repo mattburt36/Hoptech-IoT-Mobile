@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:thingsboard_app/modules/alarm/presentation/widgets/alarm_filter_widget.dart';
+import 'package:hoptech_iot_app/modules/alarm/presentation/widgets/alarm_filter_widget.dart';
 
 class FilterToggleBlockWidget<T> extends StatefulWidget {
   const FilterToggleBlockWidget({

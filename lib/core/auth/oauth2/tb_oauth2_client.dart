@@ -1,17 +1,17 @@
 
 import 'package:dart_jsonwebtoken/dart_jsonwebtoken.dart';
-import 'package:thingsboard_app/constants/app_constants.dart';
-import 'package:thingsboard_app/core/auth/oauth2/app_secret_provider.dart';
-import 'package:thingsboard_app/core/auth/oauth2/hmac_base64_algorithm.dart';
-import 'package:thingsboard_app/core/auth/oauth2/i_oauth2_client.dart';
-import 'package:thingsboard_app/core/auth/oauth2/tb_o_auth2_authenticate_result.dart';
-import 'package:thingsboard_app/core/auth/web/tb_web_auth.dart';
-import 'package:thingsboard_app/core/logger/tb_logger.dart';
-import 'package:thingsboard_app/locator.dart';
-import 'package:thingsboard_app/thingsboard_client.dart'
+import 'package:hoptech_iot_app/constants/app_constants.dart';
+import 'package:hoptech_iot_app/core/auth/oauth2/app_secret_provider.dart';
+import 'package:hoptech_iot_app/core/auth/oauth2/hmac_base64_algorithm.dart';
+import 'package:hoptech_iot_app/core/auth/oauth2/i_oauth2_client.dart';
+import 'package:hoptech_iot_app/core/auth/oauth2/tb_o_auth2_authenticate_result.dart';
+import 'package:hoptech_iot_app/core/auth/web/tb_web_auth.dart';
+import 'package:hoptech_iot_app/core/logger/tb_logger.dart';
+import 'package:hoptech_iot_app/locator.dart';
+import 'package:hoptech_iot_app/thingsboard_client.dart'
     show PlatformTypeToString;
-import 'package:thingsboard_app/utils/services/device_info/i_device_info_service.dart';
-import 'package:thingsboard_app/utils/services/endpoint/i_endpoint_service.dart';
+import 'package:hoptech_iot_app/utils/services/device_info/i_device_info_service.dart';
+import 'package:hoptech_iot_app/utils/services/endpoint/i_endpoint_service.dart';
 
 class TbOAuth2Client implements IOAuth2Client {
 

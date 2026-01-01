@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:thingsboard_app/config/routes/router.dart';
-import 'package:thingsboard_app/core/context/tb_context.dart';
-import 'package:thingsboard_app/locator.dart';
-import 'package:thingsboard_app/modules/alarm/alarms_list.dart';
-import 'package:thingsboard_app/modules/alarm/presentation/bloc/bloc.dart';
-import 'package:thingsboard_app/utils/ui/back_button_widget.dart';
-import 'package:thingsboard_app/widgets/tb_app_search_bar.dart';
+import 'package:hoptech_iot_app/config/routes/router.dart';
+import 'package:hoptech_iot_app/core/context/tb_context.dart';
+import 'package:hoptech_iot_app/locator.dart';
+import 'package:hoptech_iot_app/modules/alarm/alarms_list.dart';
+import 'package:hoptech_iot_app/modules/alarm/presentation/bloc/bloc.dart';
+import 'package:hoptech_iot_app/utils/ui/back_button_widget.dart';
+import 'package:hoptech_iot_app/widgets/tb_app_search_bar.dart';
 
 class AlarmsSearchPage extends StatelessWidget {
   const AlarmsSearchPage({

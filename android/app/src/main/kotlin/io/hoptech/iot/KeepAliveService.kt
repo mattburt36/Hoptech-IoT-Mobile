@@ -1,4 +1,4 @@
-package org.thingsboard.app
+package io.hoptech.iot
 
 import android.app.Service
 import android.content.Intent

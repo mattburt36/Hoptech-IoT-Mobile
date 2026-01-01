@@ -56,7 +56,7 @@ class S {
 
   /// `ThingsBoard`
   String get appTitle {
-    return Intl.message('ThingsBoard', name: 'appTitle', desc: '', args: []);
+    return Intl.message('Hoptech IoT', name: 'appTitle', desc: '', args: []);
   }
 
   /// `Home`

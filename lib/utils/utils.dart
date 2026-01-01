@@ -3,13 +3,13 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:jovial_svg/jovial_svg.dart';
-import 'package:thingsboard_app/generated/l10n.dart';
-import 'package:thingsboard_app/locator.dart';
-import 'package:thingsboard_app/thingsboard_client.dart';
-import 'package:thingsboard_app/utils/services/endpoint/i_endpoint_service.dart';
-import 'package:thingsboard_app/utils/services/mobile_actions/actions/url_action.dart';
-import 'package:thingsboard_app/utils/services/mobile_actions/results/launch_result.dart';
-import 'package:thingsboard_app/utils/services/overlay_service/i_overlay_service.dart';
+import 'package:hoptech_iot_app/generated/l10n.dart';
+import 'package:hoptech_iot_app/locator.dart';
+import 'package:hoptech_iot_app/thingsboard_client.dart';
+import 'package:hoptech_iot_app/utils/services/endpoint/i_endpoint_service.dart';
+import 'package:hoptech_iot_app/utils/services/mobile_actions/actions/url_action.dart';
+import 'package:hoptech_iot_app/utils/services/mobile_actions/results/launch_result.dart';
+import 'package:hoptech_iot_app/utils/services/overlay_service/i_overlay_service.dart';
 
 abstract class Utils {
   static const _tbImagePrefix = 'tb-image;';

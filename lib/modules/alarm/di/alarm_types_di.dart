@@ -1,14 +1,14 @@
-import 'package:thingsboard_app/locator.dart';
-import 'package:thingsboard_app/modules/alarm/data/datasource/alarm_types/alarm_types_datasource.dart';
-import 'package:thingsboard_app/modules/alarm/data/datasource/alarm_types/i_alarm_types_datasource.dart';
-import 'package:thingsboard_app/modules/alarm/data/repository/alarm_types/alarm_types_repository.dart';
-import 'package:thingsboard_app/modules/alarm/domain/pagination/alarm_types/alarm_types_pagination_repository.dart';
-import 'package:thingsboard_app/modules/alarm/domain/pagination/alarm_types/alarm_types_query_ctrl.dart';
-import 'package:thingsboard_app/modules/alarm/domain/repository/alarm_types/i_alarm_types_repository.dart';
-import 'package:thingsboard_app/modules/alarm/domain/usecases/alarm_types/fetch_alarm_types_usecase.dart';
-import 'package:thingsboard_app/modules/alarm/presentation/bloc/alarm_types/alarm_types_bloc.dart';
-import 'package:thingsboard_app/thingsboard_client.dart';
-import 'package:thingsboard_app/utils/services/pagination_repository.dart';
+import 'package:hoptech_iot_app/locator.dart';
+import 'package:hoptech_iot_app/modules/alarm/data/datasource/alarm_types/alarm_types_datasource.dart';
+import 'package:hoptech_iot_app/modules/alarm/data/datasource/alarm_types/i_alarm_types_datasource.dart';
+import 'package:hoptech_iot_app/modules/alarm/data/repository/alarm_types/alarm_types_repository.dart';
+import 'package:hoptech_iot_app/modules/alarm/domain/pagination/alarm_types/alarm_types_pagination_repository.dart';
+import 'package:hoptech_iot_app/modules/alarm/domain/pagination/alarm_types/alarm_types_query_ctrl.dart';
+import 'package:hoptech_iot_app/modules/alarm/domain/repository/alarm_types/i_alarm_types_repository.dart';
+import 'package:hoptech_iot_app/modules/alarm/domain/usecases/alarm_types/fetch_alarm_types_usecase.dart';
+import 'package:hoptech_iot_app/modules/alarm/presentation/bloc/alarm_types/alarm_types_bloc.dart';
+import 'package:hoptech_iot_app/thingsboard_client.dart';
+import 'package:hoptech_iot_app/utils/services/pagination_repository.dart';
 
 class AlarmTypesDi {
   AlarmTypesDi._();

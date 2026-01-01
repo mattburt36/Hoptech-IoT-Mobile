@@ -1,5 +1,5 @@
 import 'package:flutter/foundation.dart';
-import 'package:thingsboard_app/thingsboard_client.dart';
+import 'package:hoptech_iot_app/thingsboard_client.dart';
 
 abstract interface class INoAuthRepository {
   Future<LoginResponse> getJwtToken({
